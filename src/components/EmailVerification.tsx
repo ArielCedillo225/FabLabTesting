@@ -120,7 +120,7 @@ export default function EmailVerification() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link className="link" to="/sign-up">
+                <Link className="link" to="/sign-in">
                   Regresar
                 </Link>
               </Grid>

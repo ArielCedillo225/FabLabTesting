@@ -115,7 +115,7 @@ export default function EmailVerification() {
             </Button>
             <Grid container>
               <Grid item>
-                <Link className="link" to="/sign-up">
+                <Link className="link" to="/sign-in">
                   Regresar
                 </Link>
               </Grid>

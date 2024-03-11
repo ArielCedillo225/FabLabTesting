@@ -1,10 +1,10 @@
 import "./App.css";
 import SignIn from "./components/SingIn";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import SignUp from "./components/Register";
 import EmailVerification from "./components/EmailVerification";
 import ForgotPassword from "./components/ForgotPassword";
 import PasswordRecovery from "./components/PasswordRecovery";
+import SignInV2 from "./components/SingInV2";
 
 function App() {
   const router = createBrowserRouter([
@@ -12,15 +12,15 @@ function App() {
       path: "/",
       element: (
         <div>
-          <SignIn />
+          <SignInV2 />
         </div>
       ),
     },
     {
-      path: "/sign-up",
+      path: "/sign-in",
       element: (
         <div>
-          <SignUp />
+          <SignIn />
         </div>
       ),
     },

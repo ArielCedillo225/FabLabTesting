@@ -12,6 +12,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import style from "./style.module.css";
+import "@fontsource/poppins";
 
 function Copyright(props: any) {
   return (
@@ -33,6 +34,7 @@ function Copyright(props: any) {
 const defaultTheme = createTheme({
   typography: {
     fontFamily: [
+      "Poppins",
       "Co Headline Regular",
       "Co Headline Light",
       "Co Headline Bold",
@@ -131,7 +133,7 @@ export default function SignIn() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link className="link" to="/sign-up">
+                <Link className="link" to="/sign-in">
                   ¿No tienes cuenta?
                 </Link>
               </Grid>

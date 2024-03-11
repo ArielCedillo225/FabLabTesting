@@ -66,12 +66,6 @@
     margin-bottom: 6px;
 }
 
-body{
-    background-image: url("../public/img/fondoLogin.jpg" );
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
 
 .radioButtonGroupUsuario>label>span{
     font-size: 13px;
